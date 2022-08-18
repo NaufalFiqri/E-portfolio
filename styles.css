@@ -33,16 +33,24 @@ li{
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
 }
 
-
 .text--purple{
     color: royalblue;
 }
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
 /* NAVIGATION BAR */
 
 nav{
@@ -143,9 +151,11 @@ nav{
     flex: 1;
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    flex-direction: column;
+    padding: 100px 0;
 }
 
 .about-me__img{
     width: 100%;
+    max-width: 600px;
 }
